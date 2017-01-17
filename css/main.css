@@ -1800,7 +1800,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffb8ff;
+  background: #f191b9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2632,4 +2632,7 @@ embed {
 }
 .post-toc .nav .nav-child {
   display: block;
+}
+#ds-thread #ds-reset .ds-powered-by a {
+  display: none;
 }
