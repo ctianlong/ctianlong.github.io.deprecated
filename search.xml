@@ -3,16 +3,16 @@
   
     
     <entry>
-      <title><![CDATA[人生箴言一]]></title>
-      <url>%2F2017%2F01%2F17%2Flife-truth1%2F</url>
-      <content type="text"><![CDATA[心情不好就少听悲伤的歌，饿了就自己找吃的，怕黑就开灯，想要的就自己赚钱买，即使生活给了你百般阻挠，也没必要用矫情放大自己的不容易，现实就这么残酷，拿什么装无辜。改变不了的事就别太在意，留不住的人就试着学会放弃，受了伤的心就尽力自愈，除了生死，都是小事，别为难…]]></content>
+      <title><![CDATA[Hello World]]></title>
+      <url>%2F2017%2F01%2F19%2Fhello-world%2F</url>
+      <content type="text"><![CDATA[Welcome to MyBlog! you can visit my GitHub. 12345public class HelloWorld &#123; public static void main(String[] args) &#123; System.out.println("Hello World!"); &#125;&#125;]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>%2F2017%2F01%2F17%2Fhello-world%2F</url>
-      <content type="text"><![CDATA[Welcome to MyBlog! you can visit my GitHub. Hello World!12345public class HelloWorld &#123; public static void main(String[] args) &#123; System.out.println("Hello World!"); &#125;&#125;]]></content>
+      <title><![CDATA[人生箴言一]]></title>
+      <url>%2F2017%2F01%2F19%2Flife-truth1%2F</url>
+      <content type="text"><![CDATA[心情不好就少听悲伤的歌，饿了就自己找吃的，怕黑就开灯，想要的就自己赚钱买，即使生活给了你百般阻挠，也没必要用矫情放大自己的不容易，现实就这么残酷，拿什么装无辜。改变不了的事就别太在意，留不住的人就试着学会放弃，受了伤的心就尽力自愈，除了生死，都是小事，别为难…]]></content>
     </entry>
 
     

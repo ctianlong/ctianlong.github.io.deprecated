@@ -3,17 +3,33 @@
 
 
     
-    
-    
-    
+  <url>
+    <loc>http://blogit.tongjilab.cn/2017/01/19/hello-world/</loc>
+    <lastmod>2017-01-18T19:26:43.170Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-01-18T19:26:43.170Z</pubTime>
+        
+        <tag>helloworld</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://blogit.tongjilab.cn/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
-    <loc>http://blogit.tongjilab.cn/2017/01/17/life-truth1/</loc>
-    <lastmod>2017-01-17T13:04:02.159Z</lastmod>
+    <loc>http://blogit.tongjilab.cn/2017/01/19/life-truth1/</loc>
+    <lastmod>2017-01-18T19:24:56.026Z</lastmod>
     <data>
         <display>
         <title>人生箴言一</title>
-        <pubTime>2017-01-17T13:04:02.159Z</pubTime>
+        <pubTime>2017-01-18T19:24:56.026Z</pubTime>
         
         <tag>人生箴言</tag>
          
@@ -27,23 +43,7 @@
     </url>
 
     
-  <url>
-    <loc>http://blogit.tongjilab.cn/2017/01/17/hello-world/</loc>
-    <lastmod>2017-01-17T12:59:34.749Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-01-17T12:59:34.749Z</pubTime>
-        
-        <tag>helloworld</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="http://blogit.tongjilab.cn/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
+    
+    
+    
 </urlset>

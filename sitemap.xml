@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blogit.tongjilab.cn/2017/01/19/hello-world/</loc>
+    
+    <lastmod>2017-01-18T19:26:43.170Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blogit.tongjilab.cn/2017/01/19/life-truth1/</loc>
+    
+    <lastmod>2017-01-18T19:24:56.026Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blogit.tongjilab.cn/guestbook/index.html</loc>
     
     <lastmod>2017-01-18T19:18:56.513Z</lastmod>
@@ -26,20 +40,6 @@
     <loc>http://blogit.tongjilab.cn/tags/index.html</loc>
     
     <lastmod>2017-01-17T13:34:18.130Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blogit.tongjilab.cn/2017/01/17/life-truth1/</loc>
-    
-    <lastmod>2017-01-17T13:04:02.159Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blogit.tongjilab.cn/2017/01/17/hello-world/</loc>
-    
-    <lastmod>2017-01-17T12:59:34.749Z</lastmod>
     
   </url>
   
