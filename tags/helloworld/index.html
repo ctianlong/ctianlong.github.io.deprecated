@@ -102,8 +102,8 @@
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: '6376244676046882000',
-      author: 'ROOT'
+      userId: 'undefined',
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -159,7 +159,7 @@
     </a>
   </div>
     
-      <p class="site-subtitle">点滴成江海，跬步至千里</p>
+      <h1 class="site-subtitle" itemprop="description">点滴成江海，跬步至千里</h1>
     
 </div>
 
@@ -270,13 +270,8 @@
      * limitations under the License.
      */
     function go() {
-
-
-    var songs = [
-                "http://7xoiki.com1.z0.glb.clouddn.com/Music-sunburst.mp3",
-		"http://ojrkb9vnt.bkt.clouddn.com/music/mp3/Victory.mp3"
-    ];
-
+    var songs = ["http://7xoiki.com1.z0.glb.clouddn.com/Music-sunburst.mp3",
+		     "http://ojrkb9vnt.bkt.clouddn.com/music/mp3/Victory.mp3"];
     
     function c() {
         var e = document.createElement("link");
@@ -420,6 +415,7 @@
     var curSongIndex = parseInt(document.getElementById("audio_element_id").getAttribute("curSongIndex"));
     var i = songs[curSongIndex];
     
+
     var s = "mw-harlem_shake_me";
     var o = "im_first";
     var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
@@ -454,9 +450,9 @@
         if (v(A)) {
             O.push(A)
         }
-    }
-    })()'><i class="menu-item-icon fa fa-music fa-fw"></i><br />High一下</a> </li>
-          <!-- end High一下 -->
+    }   
+    })()'><i class="menu-item-icon fa fa-music fa-fw"></i><br />放松一下</a> </li>
+    <!-- end High一下 -->
 
     </ul>
   
@@ -501,7 +497,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h1 class="post-title">
+      <h2 class="post-title">
         
             <a class="post-title-link" href="/2017/01/17/hello-world/" itemprop="url">
               
@@ -509,7 +505,7 @@
               
             </a>
         
-      </h1>
+      </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
@@ -785,22 +781,13 @@
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;
       ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.src = '/js/src/embed.js';
       ds.charset = 'UTF-8';
       (document.getElementById('footer')[0]
       || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
   </script>
 
-  
-    
-      
-      <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-      <script src="/js/src/hook-duoshuo.js?v=5.1.0"></script>
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
   
 
 
@@ -966,9 +953,7 @@
 
 
   <!-- 背景动画 -->
-  <!--
   <script type="text/javascript" src="/js/src/particle.js"></script>
-  -->
 
   <!-- 页面点击小红心 -->
   <!--
