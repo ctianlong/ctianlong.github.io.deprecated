@@ -62,7 +62,26 @@
         </li>
       {% endif %}
 
+
+    <!-- 音乐播放 -->
+
+    {% if theme.music.enable %}
+    <li class="menu-item menu-item-music">
+	<a id="audioBtn" style="cursor:pointer;"><i class="menu-item-icon fa fa-music fa-fw"></i><br />{{ theme.music.title }}</a>
+        <audio id="bgMusic" src=""></audio>
+    </li>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script type="text/javascript" src="/js/src/music-ctl.js"> </script>
+    {% endif %}    
+
+    <!-- 音乐播放结束 -->
+
+
+
       <!-- 自定义High一下的功能 -->
+      <!--
       <li class="menu-item menu-item-music"> <a href='javascript:(
     function go() {
     var songs = ["http://7xoiki.com1.z0.glb.clouddn.com/Music-sunburst.mp3",
@@ -216,7 +235,6 @@
     var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
     var a = "mw-strobe_light";
 
-    /* harlem-shake-style.css，替换成你的位置，也可以直接使用：s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css */
     var f = "http://s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
     
     var l = "mw_added_css";
@@ -247,7 +265,10 @@
         }
     }   
     })()'><i class="menu-item-icon fa fa-music fa-fw"></i><br />放松一下</a> </li>
+    -->
     <!-- end High一下 -->
+
+
 
     </ul>
   {% endif %}

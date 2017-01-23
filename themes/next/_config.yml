@@ -20,7 +20,7 @@ since: 2017
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -491,4 +491,8 @@ reward_comment: 点个赞呗
 wechatpay: http://ojrkb9vnt.bkt.clouddn.com/image/png/wepayQR.png
 alipay: http://ojrkb9vnt.bkt.clouddn.com/image/png/alipayQR.png
 
+# Music
+music:
+  enable: true
+  title: 放松一下
 
