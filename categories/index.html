@@ -259,33 +259,19 @@
       
 
 
-
     <!-- 音乐播放 -->
 
+    
     <li class="menu-item menu-item-music">
-        <a class="mscBtn" id="audioBtn" title='最幸福的人' style="cursor:pointer;">
-            
-        </a>
-        <audio id="bgMusic" src="http://cctv3.qiniudn.com/zuixingfuderen.mp3" autoplay="autoplay"></audio>
+	<a id="audioBtn" style="cursor:pointer;"><i class="menu-item-icon fa fa-music fa-fw"></i><br />放松一下</a>
+        <audio id="bgMusic" src=""></audio>
     </li>
 
-    <script type="text/javascript">
-        $(function(){
-            var music = document.getElementById("bgMusic");
-            $("#audioBtn").click(function(){
-            if(music.paused){music.play();
-            $("#audioBtn").removeClass("pause").addClass("play");
-            }else{music.pause();
-            $("#audioBtn").removeClass("play").addClass("pause");}});
-            });
-    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-    <style type="text/css">
-        .pause {background-position: 0 bottom;}
-        .mscBtn {height: 50px;
-        background: #fff url(http://cctv2.qiniudn.com/musicbtn.png) no-repeat;display: block;}
-    </style>
-    
+    <script type="text/javascript" src="/js/src/music-ctl.js"> </script>
+        
+
     <!-- 音乐播放结束 -->
 
 
@@ -668,17 +654,6 @@
   <span class="author" itemprop="copyrightHolder">唯细水静流</span>
 </div>
 
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
 
 
         
