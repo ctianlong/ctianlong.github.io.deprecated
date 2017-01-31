@@ -5,7 +5,7 @@
 # Site
 title: 唯细水静流's Blog
 subtitle: 点滴成江海，跬步至千里
-description: 
+description:
 author: 唯细水静流
 language: zh-Hans
 timezone:
@@ -24,7 +24,7 @@ permalink_defaults:
 
 # abbrlink config
 abbrlink:
-  alg: crc32  # 算法：crc16(default) and crc32 
+  alg: crc32  # 算法：crc16(default) and crc32
   rep: hex    # 进制：dec(default) and hex
 
 # Directory
@@ -113,5 +113,3 @@ baidu_url_submit:
   host: blogit.tongjilab.cn ## 在百度站长平台中注册的域名
   token: QYn7N86IaJtUqgmT ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
-
-
