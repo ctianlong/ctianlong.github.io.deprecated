@@ -1,7 +1,7 @@
 $(function(){
           var music = document.getElementById("bgMusic");
           var musicArr=[
-            {url:'http://7xoiki.com1.z0.glb.clouddn.com/Music-sunburst.mp3',title:"sunburst"},
+            {url:'http://ojrkb9vnt.bkt.clouddn.com/music/mp3/Sunburst.mp3',title:"sunburst"},
             {url:'http://ojrkb9vnt.bkt.clouddn.com/music/mp3/Victory.mp3',title:"victory"}
           ];
 
@@ -31,6 +31,8 @@ $(function(){
 
           $("#bgMusic").on('ended',function(){
             randomMusic();
+            var $audioBtn = $("#audioBtn");
+            $audioBtn.attr('title',"正在播放:"+$audioBtn.attr('titleInfo'));
             music.play();
           });
         });

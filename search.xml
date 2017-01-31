@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[Hello World]]></title>
       <url>%2Fposts%2F4a17b156%2F</url>
-      <content type="text"><![CDATA[Welcome to MyBlog! you can visit my GitHub. 12345public class HelloWorld &#123; public static void main(String[] args) &#123; System.out.println("Hello World!"); &#125;&#125;]]></content>
+      <content type="text"><![CDATA[HelloWorldhello, Welcome to MyBlog! you can visit my GitHub. 12345public class HelloWorld &#123; public static void main(String[] args) &#123; System.out.println("Hello World!"); &#125;&#125;]]></content>
     </entry>
 
     
