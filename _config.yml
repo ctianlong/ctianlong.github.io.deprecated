@@ -16,7 +16,7 @@ avatar: http://s.gravatar.com/avatar/f9718bcb9f062c87ee1752d21dce397a?s=80
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: blogit.tongjilab.cn
+url: blog.tongjilab.cn
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink/
@@ -104,12 +104,12 @@ baidusitemap:
 nofollow:
   enable: false #和轻松一下冲突
   exclude: # 例外的链接，可将友情链接放置此处
-  - blog.tongjilab.cn
+  - b3log.tongjilab.cn
   - github.com
 
 
 baidu_url_submit:
   count: 1 ## 比如3，代表提交最新的三个链接
-  host: blogit.tongjilab.cn ## 在百度站长平台中注册的域名
+  host: blog.tongjilab.cn ## 在百度站长平台中注册的域名
   token: QYn7N86IaJtUqgmT ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里

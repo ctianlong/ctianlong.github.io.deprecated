@@ -11,7 +11,7 @@ keywords: "Hexo, NexT, Blog, Java, ctianlong, Git, 唯细水静流"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: 
+rss:
 
 # Specify the date when the site was setup
 since: 2017
@@ -197,7 +197,7 @@ links_title: 友情链接
 links_layout: inline
 links:
   #Title: http://example.com/
-  blog: http://blog.tongjilab.cn
+  blog: http://b3log.tongjilab.cn
 
 
 # ---------------------------------------------------------------
@@ -495,4 +495,3 @@ alipay: http://ojrkb9vnt.bkt.clouddn.com/image/png/alipayQR.png
 music:
   enable: true
   title: 放松一下
-

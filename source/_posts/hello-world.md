@@ -7,7 +7,7 @@ abbrlink: 4a17b156
 date: 2017-01-17 01:24:34
 ---
 ### HelloWorld
-hello, Welcome to [MyBlog](http://blogit.tongjilab.cn/)! you can visit my [GitHub](https://github.com/ctianlong).
+hello, Welcome to [MyBlog](http://blog.tongjilab.cn/)! you can visit my [GitHub](https://github.com/ctianlong).
 
 <!-- more -->
 
