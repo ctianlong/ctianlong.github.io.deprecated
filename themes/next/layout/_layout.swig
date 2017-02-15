@@ -74,7 +74,9 @@
   {% include '_components/algolia-search/assets.swig' %}
 
   <!-- 背景动画 -->
+  <!--
   <script type="text/javascript" src="/js/src/particle.js"></script>
+  -->
 
   <!-- 页面点击小红心 -->
   <!--

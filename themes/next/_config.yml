@@ -20,7 +20,7 @@ since: 2017
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: false
+copyright: true
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -38,10 +38,10 @@ seo: true
 menu:
   home: /
   archives: /archives
-  categories: /categories
+  #categories: /categories
   tags: /tags
   guestbook: /guestbook
-  about: /about
+  #about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -171,8 +171,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-creative_commons: by-nc-sa
-#creative_commons:
+#creative_commons: by-nc-sa
 
 
 sidebar:
@@ -192,12 +191,12 @@ sidebar:
 
 
 # Blogrolls
-links_title: 友情链接
+links_title: Links
 #links_layout: block
 links_layout: inline
 links:
   #Title: http://example.com/
-  blog: http://b3log.tongjilab.cn
+  Solo: http://b3log.tongjilab.cn
 
 
 # ---------------------------------------------------------------
@@ -250,7 +249,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -487,7 +486,7 @@ version: 5.1.0
 
 
 # dashang
-reward_comment: 点个赞呗
+reward_comment:
 wechatpay: http://ojrkb9vnt.bkt.clouddn.com/image/png/wepayQR.png
 alipay: http://ojrkb9vnt.bkt.clouddn.com/image/png/alipayQR.png
 

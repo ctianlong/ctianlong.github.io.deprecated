@@ -8,6 +8,7 @@
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
+
 {% if theme.copyright %}
 <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
@@ -20,3 +21,7 @@
   </a>
 </div>
 {% endif %}
+
+<div>
+  <span><a href='http://www.miitbeian.gov.cn' target='_blank'>浙ICP备17004607号</a></span>
+</div>

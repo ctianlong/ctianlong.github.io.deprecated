@@ -2,7 +2,10 @@
 title: 留言
 date: 2017-01-17 18:56:38
 ---
-<blockquote class="blockquote-center">欢迎交流分享。</blockquote>
+<blockquote class="blockquote-center">
+欢迎交流分享。
+Email: chengtl0131@gmail.com
+</blockquote>
 <br/>
 
 <span id="yu-2">最近访客</span>

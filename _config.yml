@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 唯细水静流's Blog
+title: 唯细水静流
 subtitle: 点滴成江海，跬步至千里
 description:
 author: 唯细水静流
@@ -102,14 +102,15 @@ baidusitemap:
 
 
 nofollow:
-  enable: false #和轻松一下冲突
+  enable: true #和放松一下冲突
   exclude: # 例外的链接，可将友情链接放置此处
   - b3log.tongjilab.cn
   - github.com
+  - weibo.com
 
 
 baidu_url_submit:
-  count: 1 ## 比如3，代表提交最新的三个链接
+  count: 2 ## 比如3，代表提交最新的三个链接
   host: blog.tongjilab.cn ## 在百度站长平台中注册的域名
   token: QYn7N86IaJtUqgmT ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
