@@ -1,7 +1,11 @@
 #hexo robots.txt
 User-agent: *
 Allow: /
+Allow: /categories/
+Allow: /tags/
 Allow: /archives/
+Allow: /about/
+Allow: /friends/
 Disallow: /lib/
 Disallow: /js/
 Disallow: /css/
