@@ -119,7 +119,7 @@
         <div class="logo-name">唯细水静流</div>
         <div class="logo-desc">
             
-            技术博客
+            点滴成江海，跬步至千里
             
         </div>
     </div>
@@ -239,6 +239,13 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
+    <div id="prev-cover" class="left waves-effect carousel-control">
+        <i class="icon fa fa-angle-left"></i>
+    </div>
+    <div id="next-cover" class="right waves-effect carousel-control">
+        <i class="icon fa fa-angle-right"></i>
+    </div>
+    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -247,13 +254,13 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    点滴成江海，跬步至千里
+                    唯细水静流
                 
             </div>
 
             <div class="description center-align">
                 
-                    技术博客
+                    点滴成江海，跬步至千里
                 
             </div>
         </div>
@@ -270,29 +277,60 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 </a>
 
                 
-                <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
+                <a href="https://github.com/ctianlong" class="waves-effect waves-light btn" target="_blank">
                     <i class="fa fa-github-alt"></i>Github
                 </a>
                 
             </div>
             <div class="cover-social-link">
-    <a href="https://ctianlong.github.io" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <a href="https://github.com/ctianlong" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fa fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:chengtl0131@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <a href="mailto:chengtl0131@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
 
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
 </div>
         </div>
     </div>
 
+    
+    
+
+    
+    
+    <div class="carousel-item amber white-text carousel-post bg-cover"
+            style="background-image: url('/medias/featureimages/14.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col s10 offset-s1">
+                    <div class="title center-align">MySQL被黑客入侵及安全措施总结</div>
+                    <div class="description center-align">
+                    
+                        情况概述今天登陆在腾讯云服务器上搭建的MySQL数据库，发现数据库被黑了，黑客提示十分明显。
+MySQL中只剩下两个数据库，一个是information_schema，另一个是黑客创建的PLEASE_READ，其中有一张info表，内容如下
+                    
+                    </div>
+                    <div class="cover-btns">
+                        <a href="/posts/d82d4f3e/" class="waves-effect waves-light btn" target="_blank">
+                            <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
 </div>
 
@@ -405,6 +443,39 @@ $(function () {
 
 
 
+
+
+<div class="title"><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;推荐文章</div>
+
+<div class="row">
+
+    
+    
+    <div class="col s12" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/14.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/MySQL/" class="category" target="_blank">MySQL</a>
+                    
+                </div>
+                <a href="/posts/d82d4f3e/" target="_blank">
+                    <h3 class="post-title">MySQL被黑客入侵及安全措施总结</h3>
+                </a>
+                <p class="post-description">情况概述今天登陆在腾讯云服务器上搭建的MySQL数据库，发现数据库被黑了，黑客提示十分明显。
+MySQL中只剩下两个数据库，一个是information_schema，另</p>
+                <a href="/posts/d82d4f3e/" target="_blank"
+                        class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
+                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
                     </div>
                 </div>
             </div>
@@ -424,17 +495,17 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Mysql被黑客入侵及安全措施总结">
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="MySQL被黑客入侵及安全措施总结">
                             
-                            <span class="card-title">Mysql被黑客入侵及安全措施总结</span>
+                            <span class="card-title">MySQL被黑客入侵及安全措施总结</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary">
                             
-                                情况概述今天登陆在腾讯云服务器上搭建的Mysql数据库，发现数据库被黑了，黑客提示十分明显。
-Mysql中只剩下两个数据库，一个是infor
+                                情况概述今天登陆在腾讯云服务器上搭建的MySQL数据库，发现数据库被黑了，黑客提示十分明显。
+MySQL中只剩下两个数据库，一个是infor
                             
                         </div>
                         <div class="publish-info">
@@ -443,8 +514,12 @@ Mysql中只剩下两个数据库，一个是infor
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-user fa-fw"></i>
-                                唯细水静流
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
+                                </a>
+                                
                                 
                             </span>
                         </div>
@@ -453,12 +528,8 @@ Mysql中只剩下两个数据库，一个是infor
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Mysql/" target="_blank">
-                            <span class="chip bg-color">Mysql</span>
-                        </a>
-                        
-                        <a href="/tags/黑客入侵/" target="_blank">
-                            <span class="chip bg-color">黑客入侵</span>
+                        <a href="/tags/MySQL/" target="_blank">
+                            <span class="chip bg-color">MySQL</span>
                         </a>
                         
                         <a href="/tags/数据库安全/" target="_blank">
@@ -487,9 +558,7 @@ Mysql中只剩下两个数据库，一个是infor
                             
                                 
 
-
-
-心情不好就少听悲伤的歌，饿了就自己找吃的，怕黑就开灯，想要的就自己赚钱买，即使生活给了你百般阻挠，也没必要用矫情放大自己的不容易，现
+心情不好就少听悲伤的歌，饿了就自己找吃的，怕黑就开灯，想要的就自己赚钱买，即使生活给了你百般阻挠，也没必要用矫情放大自己的不容易，现实就
                             
                         </div>
                         <div class="publish-info">
@@ -527,10 +596,13 @@ Mysql中只剩下两个数据库，一个是infor
 <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            本站由&copy;<a href="https://ctianlong.github.io/" target="_blank" rel="external nofollow noopener noreferrer">唯细水静流</a>基于
-            <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> 的
-            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
+            本站由&copy;<a href="https://ctianlong.github.io/" target="_blank">唯细水静流 </a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank"> hexo-theme-matery</a>主题搭建.
 
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">616</span>
             
 
             
@@ -551,19 +623,23 @@ Mysql中只剩下两个数据库，一个是infor
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://ctianlong.github.io" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <a href="https://github.com/ctianlong" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fa fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:chengtl0131@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <a href="mailto:chengtl0131@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
 
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
 </div>
     </div>
 </footer>
@@ -576,7 +652,8 @@ Mysql中只剩下两个数据库，一个是infor
     <div class="modal-content">
         <div class="search-header">
             <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
         </div>
         <div id="searchResult"></div>
     </div>

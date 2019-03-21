@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Mysql被黑客入侵及安全措施总结, 唯细水静流">
-    <meta name="description" content="情况概述今天登陆在腾讯云服务器上搭建的Mysql数据库，发现数据库被黑了，黑客提示十分明显。
-Mysql中只剩下两个数据库，一个是information_schema，另一个是黑客创建的PLEASE_READ，其中有一张info表，内容如下">
+    <meta name="keywords" content="MySQL被黑客入侵及安全措施总结, 唯细水静流">
+    <meta name="description" content="情况概述今天登陆在腾讯云服务器上搭建的MySQL数据库，发现数据库被黑了，黑客提示十分明显。
+MySQL中只剩下两个数据库，一个是information_schema，另一个是黑客创建的PLEASE_READ，其中有一张info表，内容如下">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +14,7 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Mysql被黑客入侵及安全措施总结 | 唯细水静流</title>
+    <title>MySQL被黑客入侵及安全措施总结 | 唯细水静流</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -120,7 +120,7 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
         <div class="logo-name">唯细水静流</div>
         <div class="logo-desc">
             
-            技术博客
+            点滴成江海，跬步至千里
             
         </div>
     </div>
@@ -198,13 +198,13 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Mysql被黑客入侵及安全措施总结
+                        MySQL被黑客入侵及安全措施总结
                     </div>
                 </div>
             </div>
@@ -315,12 +315,8 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Mysql/" target="_blank">
-                                <span class="chip bg-color">Mysql</span>
-                            </a>
-                        
-                            <a href="/tags/黑客入侵/" target="_blank">
-                                <span class="chip bg-color">黑客入侵</span>
+                            <a href="/tags/MySQL/" target="_blank">
+                                <span class="chip bg-color">MySQL</span>
                             </a>
                         
                             <a href="/tags/数据库安全/" target="_blank">
@@ -332,6 +328,15 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
                 </div>
                 <div class="col s5 right-align">
                     
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                MySQL
+                            </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
 
@@ -341,6 +346,20 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
                     2017-02-08
                 </div>
 
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        500
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        1 分
+                    </div>
+                    
                 
 				
 				
@@ -354,44 +373,43 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="情况概述"><a href="#情况概述" class="headerlink" title="情况概述"></a>情况概述</h3><p>今天登陆在腾讯云服务器上搭建的Mysql数据库，发现数据库被黑了，黑客提示十分明显。</p>
-<p>Mysql中只剩下两个数据库，一个是<code>information_schema</code>，另一个是黑客创建的<code>PLEASE_READ</code>，其中有一张<code>info</code>表，内容如下：</p>
+                <h3 id="情况概述"><a href="#情况概述" class="headerlink" title="情况概述"></a>情况概述</h3><p>今天登陆在腾讯云服务器上搭建的MySQL数据库，发现数据库被黑了，黑客提示十分明显。</p>
+<p>MySQL中只剩下两个数据库，一个是<code>information_schema</code>，另一个是黑客创建的<code>PLEASE_READ</code>，其中有一张<code>info</code>表，内容如下：</p>
 <ul>
 <li><code>Info</code>: Your DB is Backed up at our servers, to restore send 0.2 BTC to the Bitcoin Address then send an email with your server ip</li>
 <li><code>Bitcoin_Address</code>: 1F33LEJjdphD6YpaonNCHejwLcgkgDGQW9</li>
-<li><code>Email</code>: mysqldata@mail2tor.com</li>
+<li><code>Email</code>: MySQLdata@mail2tor.com</li>
 </ul>
 <p>显然，我这是遇到比特币敲诈了。我的数据在别人的服务器里安然的躺着，需要向黑客支付0.2比特币才有可能恢复。按照当前的汇率，0.2比特币大约为1400人民币，这是我第一次遇到网络敲诈，金额还不小。</p>
 <p>所幸数据库里并没有值钱的数据，就当是送给黑客了，不过 <strong><em>数据库安全问题</em></strong> 引起了我的注意。</p>
-<hr>
-<h3 id="安全措施"><a href="#安全措施" class="headerlink" title="安全措施"></a>安全措施</h3><p>由于缺乏必要的安全措施和备份机制，数据库中原有的数据均已丢失。为了恢复到Mysql初始的状态，重新安装了Mysql数据库，并且重新创建原先存在的数据库，同时，为了防止再次被黑客入侵，对Mysql进行了一些安全配置。</p>
+<h3 id="安全措施"><a href="#安全措施" class="headerlink" title="安全措施"></a>安全措施</h3><p>由于缺乏必要的安全措施和备份机制，数据库中原有的数据均已丢失。为了恢复到MySQL初始的状态，重新安装了MySQL数据库，并且重新创建原先存在的数据库，同时，为了防止再次被黑客入侵，对MySQL进行了一些安全配置。</p>
 <ul>
 <li>禁用或限制远程访问。若允许远程访问，需要确保特定主机才拥有访问权。<ul>
 <li>对用户进行合理授权，应用程序中最好不要直接使用<code>root</code>用户。</li>
-<li>限制打开网络socket，此时仍可以建立与Mysql服务器的本地连接。<pre><code>[mysqld]
+<li>限制打开网络socket，此时仍可以建立与MySQL服务器的本地连接。<pre><code>[MySQLd]
 skip-networking
 </code></pre></li>
-<li>强迫Mysql仅监听本机。<pre><code>[mysqld]
+<li>强迫MySQL仅监听本机。<pre><code>[MySQLd]
 bind-address=127.0.0.1
 </code></pre></li>
 </ul>
 </li>
 <li>更改<code>root</code>用户的登录名称和密码。</li>
 <li>移除测试数据库和匿名账户及废弃的账户。</li>
-<li>禁用<code>LOCAL INFILE</code>。<pre><code>[mysqld]
+<li>禁用<code>LOCAL INFILE</code>。<pre><code>[MySQLd]
 set-variable=local-infile=0
 </code></pre></li>
 <li>删除历史命令记录。<pre class=" language-bash"><code class="language-bash"><span class="token function">cat</span> /dev/null <span class="token operator">></span> ~/.bash_history
-<span class="token function">cat</span> /dev/null <span class="token operator">></span> ~/.mysql_history
+<span class="token function">cat</span> /dev/null <span class="token operator">></span> ~/.MySQL_history
 </code></pre>
 </li>
-<li>及时安装Mysql安全补丁。</li>
-<li>使用<code>chroot</code>限制Mysql运行环境。</li>
+<li>及时安装MySQL安全补丁。</li>
+<li>使用<code>chroot</code>限制MySQL运行环境。</li>
 <li>自动定期备份数据库。</li>
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -501,7 +519,7 @@ set-variable=local-infile=0
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
@@ -536,7 +554,7 @@ set-variable=local-infile=0
                     </span>
                     <a href="blog.tongjilab.cn" class="b-link-green">唯细水静流</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/posts/d82d4f3e/" class="b-link-green">Mysql被黑客入侵及安全措施总结</a>
+                    <a href="/posts/d82d4f3e/" class="b-link-green">MySQL被黑客入侵及安全措施总结</a>
                 </p>
             </div>
         </div>
@@ -557,7 +575,7 @@ set-variable=local-infile=0
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
+        <div class="article col s12 m6 overflow-policy" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
             </div>
@@ -566,22 +584,26 @@ set-variable=local-infile=0
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Mysql被黑客入侵及安全措施总结">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="MySQL被黑客入侵及安全措施总结">
                         
-                        <span class="card-title">Mysql被黑客入侵及安全措施总结</span>
+                        <span class="card-title">MySQL被黑客入侵及安全措施总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">情况概述今天登陆在腾讯云服务器上搭建的Mysql数据库，发现数据库被黑了，黑客提示十分明显。
-Mysql中只剩下两个数据库，一个是information_schema，另一个是黑客创建的PLEASE_READ，其中有一张info表，内容如下</div>
+                    <div class="summary">情况概述今天登陆在腾讯云服务器上搭建的MySQL数据库，发现数据库被黑了，黑客提示十分明显。
+MySQL中只剩下两个数据库，一个是information_schema，另一个是黑客创建的PLEASE_READ，其中有一张info表，内容如下</div>
                     <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2017-02-08
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            唯细水静流
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -590,12 +612,8 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Mysql/" target="_blank">
-                        <span class="chip bg-color">Mysql</span>
-                    </a>
-                    
-                    <a href="/tags/黑客入侵/" target="_blank">
-                        <span class="chip bg-color">黑客入侵</span>
+                    <a href="/tags/MySQL/" target="_blank">
+                        <span class="chip bg-color">MySQL</span>
                     </a>
                     
                     <a href="/tags/数据库安全/" target="_blank">
@@ -625,9 +643,7 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
                 <div class="card-content article-content">
                     <div class="summary">
 
-
-
-心情不好就少听悲伤的歌，饿了就自己找吃的，怕黑就开灯，想要的就自己赚钱买，即使生活给了你百般阻挠，也没必要用矫情放大自己的不容易，现实就这么残酷，拿什么装无辜。改变不了的事就别太在意，留不住的人就试着学会放弃，受了伤的心就尽力自愈，</div>
+心情不好就少听悲伤的歌，饿了就自己找吃的，怕黑就开灯，想要的就自己赚钱买，即使生活给了你百般阻挠，也没必要用矫情放大自己的不容易，现实就这么残酷，拿什么装无辜。改变不了的事就别太在意，留不住的人就试着学会放弃，受了伤的心就尽力自愈，除了</div>
                     <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-17
@@ -758,10 +774,13 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
 <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            本站由&copy;<a href="https://ctianlong.github.io/" target="_blank" rel="external nofollow noopener noreferrer">唯细水静流</a>基于
-            <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> 的
-            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
+            本站由&copy;<a href="https://ctianlong.github.io/" target="_blank">唯细水静流 </a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank"> hexo-theme-matery</a>主题搭建.
 
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">616</span>
             
 
             
@@ -782,19 +801,23 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://ctianlong.github.io" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <a href="https://github.com/ctianlong" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fa fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:chengtl0131@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <a href="mailto:chengtl0131@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
 
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
 </div>
     </div>
 </footer>
@@ -807,7 +830,8 @@ Mysql中只剩下两个数据库，一个是information_schema，另一个是黑
     <div class="modal-content">
         <div class="search-header">
             <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
         </div>
         <div id="searchResult"></div>
     </div>
